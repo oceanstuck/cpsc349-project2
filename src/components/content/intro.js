@@ -1,7 +1,12 @@
+import './intro.css';
+
 const Intro = () =>
 {
     return(
-        <p>intro</p>
+        <div className="intro">
+            <h2>intro</h2>
+            <p>hello</p>
+        </div>
     );
 }
 

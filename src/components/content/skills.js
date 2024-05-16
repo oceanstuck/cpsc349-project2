@@ -1,7 +1,9 @@
+import './skills.css';
+
 const Skills = () =>
 {
     return(
-        <div className="skillList">
+        <div className="skills">
             <h2>skills</h2>
             <ul>
                 <li>skill1</li>
