@@ -4,7 +4,7 @@ const Projects = () =>
 {
     return(
         <div className="projects">
-            <h2>projects</h2>
+            <h2>Projects</h2>
             <ul>
                 <li>project1</li>
                 <li>project2</li>
