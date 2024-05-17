@@ -1,15 +1,17 @@
 import './projects.css';
+import { List } from '@mui/material';
+import { ListItem as Li } from '@mui/material';
 
 const Projects = () =>
 {
     return(
         <div className="projects">
             <h2>Projects</h2>
-            <ul>
-                <li>project1</li>
-                <li>project2</li>
-                <li>project3</li>
-            </ul>
+            <List>
+                <Li>This site</Li>
+                <Li>BMD merging through <a href="https://github.com/Sewer56/FileEmulationFramework">File Emulation Framework</a></Li>
+                <Li>AWB and file unpacking functionality contribution to <a href="https://github.com/TekkaGB/AemulusModManager">Aemulus Package Manager</a></Li>
+            </List>
         </div>
     );
 }

@@ -16,6 +16,9 @@ const Skills = () =>
                     <Col md={4}>
                         <Image src="images/python.png" alt="Python" rounded />
                     </Col>
+                    <Col md={4}>
+                        <Image src="images/php.png" alt="PHP" rounded />
+                    </Col>
                 </Row>
                 <Row>
                     <Col md={4}>
@@ -26,6 +29,9 @@ const Skills = () =>
                     </Col>
                     <Col md={4}>
                         <Image src="images/js.png" alt="Javascript" rounded />
+                    </Col>
+                    <Col md={4}>
+                        <Image src="image/sql.png" alt="SQL" rounded />
                     </Col>
                 </Row>
             </Container>
